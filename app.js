@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 
 //rutas
 app.use('/api', project_routes);
-app.get('/' ,(req, res) => {res.send('Bienvenido a la api de Dlivery')});
+app.get('/' ,(req, res) => {res.send('Bienvenido a la api de merengadas')});
 
 // Archivos estaticos
 app.use(express.static(path.join(__dirname,'uploads')));
